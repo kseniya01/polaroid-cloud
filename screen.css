@@ -104,6 +104,7 @@ ul {
 }
 
 .email {
+    color: var(--text-color);
     background: #ECECEC;
     float: left;
     text-align: left;
@@ -114,6 +115,7 @@ ul {
 }
 
 .button {
+    color: #FFFFFF;
     background: #FF3F3C;
     float: right;
     text-align: center;
