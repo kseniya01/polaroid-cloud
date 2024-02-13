@@ -89,6 +89,13 @@ h3 {
     padding-top: 20px;
 }
 
+.section3 {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 ul {
     color: var(--text-color);
     font-size: 25px;
