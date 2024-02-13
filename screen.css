@@ -1,4 +1,11 @@
 /* Add screen styles below */
+:root {
+    --text-color: #424242;
+    --background-color: #E9E9E9;
+    --h1-font: 62px;
+    --h2-font: 55px;
+}
+
 body {
     background: #E9E9E9;
     color: #424242;
@@ -6,9 +13,9 @@ body {
 }
 
 h1 {
-    color: #424242;
+    color: var(--text-color);
     font-weight: bolder;
-    font-size: 62px;
+    font-size: var(--h1-font);
     text-align: center;
     margin-top: 50px;
     padding-left: 50px;
@@ -17,25 +24,21 @@ h1 {
     padding-top: 50px;
 }
 
-card {
-    background: #D9D9D9;
-    color: #393D3F;
+.card {
+    linear-gradient {
+        background: linear-gradient(black, white);
+      }
+    color: var(--text-color);
     margin: 0 auto;
     width: 500px;
     height: 300px;
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(0,0,0,0.3);
-}
-
-.card {
-    #linear-gradient {
-        background: linear-gradient(black, white);
-      }
     padding: 20px;
 }
 
  h2 {
-    color: #424242;
+    color: var(--text-color);
     font-weight: bold;
     font-size: 55px;
     text-align: center;
@@ -46,8 +49,27 @@ card {
     padding-top: 20px;
 }
 
+ul {
+    color: var(--text-color);
+    font-size: 25px;
+}
+
+.email {
+    float: left;
+    color: var(--text-color);
+    font-size: 20px;
+    text-align: left;
+}
+
+.button {
+    float: right;
+    color: var(--text-color);
+    font-size: 20px;
+    text-align: right;
+}
+
 p {
-    color:#424242;
+    color: var(--text-color);
     font-size: 25px;
     text-align: left
 }
