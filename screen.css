@@ -25,13 +25,12 @@ h1 {
 }
 
 img {
-    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .card {
-    linear-gradient {
-        background: linear-gradient(black, white);
-      }
+    background: linear-gradient(black, white);
     color: var(--text-color);
     margin: 0 auto;
     width: 500px;
