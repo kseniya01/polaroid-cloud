@@ -77,10 +77,6 @@ h2 {
     padding: 20px;
 }
 
-.card div {
-    padding: 20px;
-}
-
 h3 {
     color: var(--text-color);
     font-weight: bold;
