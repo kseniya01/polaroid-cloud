@@ -70,8 +70,8 @@ h2 {
     background: linear-gradient(#E2E2E2, #D6D7D6);
     color: var(--text-color);
     margin: 0 auto;
-    width: 800px;
-    height: 100px;
+    width: 700px;
+    height: 300px;
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(0,0,0,0.3);
     padding: 20px;
