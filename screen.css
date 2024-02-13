@@ -47,6 +47,11 @@ img {
     padding: 20px;
 }
 
+.section2 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
  h2 {
     color: var(--text-color);
     font-weight: bold;
