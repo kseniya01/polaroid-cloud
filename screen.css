@@ -70,7 +70,7 @@ h2 {
     color: var(--text-color);
     margin: 0 auto;
     width: 700px;
-    height: 300px;
+    height: auto;
     border-radius: 20px;
     padding: 20px;
 }
