@@ -2,7 +2,7 @@
 :root {
     --text-color: #424242;
     --background-color: #E9E9E9;
-    --h1-font: 95px;
+    --h1-font: 125px;
     --h2-font: 55px;
 }
 
@@ -77,6 +77,12 @@ h2 {
 
 .card div {
     padding: 20px;
+}
+
+.section3 {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
 }
 
 h3 {
