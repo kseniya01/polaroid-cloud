@@ -36,6 +36,11 @@ img {
     width: 50%;
   }
 
+  .section1 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 .card {
     background: linear-gradient(#E2E2E2, #D6D7D6);
     color: var(--text-color);
