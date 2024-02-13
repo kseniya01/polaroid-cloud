@@ -81,12 +81,6 @@ h2 {
     padding: 20px;
 }
 
-.section3 {
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 50px;
-}
-
 h3 {
     color: var(--text-color);
     font-weight: bold;
