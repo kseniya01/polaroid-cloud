@@ -33,6 +33,10 @@ img {
     padding-right: 100px;
 }
 
+.image {
+    padding-top: -50px;
+}
+
 .center {
     display: block;
     margin-left: auto;
