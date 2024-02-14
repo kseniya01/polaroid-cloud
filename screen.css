@@ -139,7 +139,6 @@ p {
 }
 
 .input {
-    display: inline-block;
-    vertical-align: middle;
     align-content: center;
+    display: flexbox;
 }
