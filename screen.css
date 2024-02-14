@@ -107,7 +107,7 @@ ul {
     text-align: center;
 }
 
-p.email {
+.emailfield {
     color: #424242;
 }
 
@@ -130,6 +130,6 @@ p {
     padding-right: 100px;
 }
 
-p.button {
+.buttontext {
     color: #FFFFFF;
 }
