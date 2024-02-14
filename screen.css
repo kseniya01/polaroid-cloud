@@ -79,6 +79,7 @@ h2 {
     margin-right: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
+    display:inline-block;
     vertical-align: middle;
 }
 
