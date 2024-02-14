@@ -117,6 +117,8 @@ ul {
     padding-bottom: 10px;
     padding-top: 10px;
     align-content: center;
+    display:inline-block;
+    vertical-align: middle;
 }
 
 .button {
@@ -132,6 +134,8 @@ ul {
     padding-right: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
+    display:inline-block;
+    vertical-align: middle;
 }
 
 p {
@@ -144,6 +148,5 @@ p {
 }
 
 .input {
-    display:inline-block;
-    vertical-align: middle;
+    align-content: center;
 }
