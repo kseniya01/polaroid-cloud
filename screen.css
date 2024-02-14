@@ -104,7 +104,6 @@ ul {
 }
 
 .email {
-    float: left;
     display: flex;
     gap: 10px;
     background: #ECECEC;
