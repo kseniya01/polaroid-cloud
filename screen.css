@@ -108,6 +108,7 @@ ul {
     margin-left: 10px;
     display: flex;
     gap: 10px;
+    inline-size: 100px;
     background: #ECECEC;
     font-family: Arial, Helvetica, sans-serif;
     color: #424242;
@@ -122,12 +123,11 @@ ul {
 .button {
     gap: 10px;
     display: inline-block;
-    inline-size: 100px;
     background: #FF3F3C;
     color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     padding-left: 10px;
     padding-right: 10px;
