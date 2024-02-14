@@ -79,8 +79,7 @@ h2 {
     margin-right: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
-    display: flex;
-    align-content: center;
+    vertical-align: middle;
 }
 
 h3 {
