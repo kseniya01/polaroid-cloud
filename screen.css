@@ -110,9 +110,6 @@ ul {
     gap: 10px;
     background: #ECECEC;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.emailfield {
     color: #424242;
     text-align: left;
     font-size: 20px;
@@ -125,22 +122,10 @@ ul {
 .button {
     gap: 10px;
     display: inline-block;
-    inline-size: 500px;
+    inline-size: 100px;
     background: #FF3F3C;
     color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.buttontext {
-    color: #FFFFFF;
     font-weight: bold;
     text-align: left;
     font-size: 20px;
@@ -148,4 +133,13 @@ p {
     padding-right: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
+}
+
+p {
+    color: var(--text-color);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
 }
