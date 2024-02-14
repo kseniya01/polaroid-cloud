@@ -122,7 +122,6 @@ ul {
 }
 
 p {
-    color: var(--text-color);
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
@@ -130,6 +129,14 @@ p {
     padding-right: 100px;
 }
 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .buttontext {
     color: #FFFFFF;
+    font-weight: bold;
 }
