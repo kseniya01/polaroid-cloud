@@ -112,6 +112,7 @@ ul {
 .emailfield {
     color: #424242;
     text-align: left;
+    font-size: 20px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -136,17 +137,11 @@ p {
     padding-right: 100px;
 }
 
-p2 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 .buttontext {
     color: #FFFFFF;
     font-weight: bold;
     text-align: left;
+    font-size: 20px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
