@@ -68,16 +68,11 @@ h2 {
 
 .card {
     background: linear-gradient(#E2E2E2, #D6D7D6);
-    color: var(--text-color);
     margin: 0 auto;
     width: 700px;
     height: auto;
     border-radius: 20px;
-    padding: 20px;
-}
-
-.card div {
-    padding: 20px;
+    padding: 50px;
 }
 
 h3 {
@@ -103,8 +98,6 @@ ul {
 }
 
 .email {
-    float: left;
-    margin-left:10px;
     display: flex;
     gap: 10px;
     background: #ECECEC;
@@ -120,7 +113,6 @@ ul {
     inline-size: 500px;
     background: #FF3F3C;
     color: #FFFFFF;
-    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -132,4 +124,8 @@ p {
     text-align: left;
     padding-left: 100px;
     padding-right: 100px;
+}
+
+p.button {
+    color: #FFFFFF;
 }
