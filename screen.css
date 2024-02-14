@@ -137,8 +137,6 @@ p {
     padding-left: 100px;
     padding-right: 100px;
 }
-
 .input {
-    align-content: center;
-    display: flexbox;
+    display: flex;
 }
