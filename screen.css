@@ -110,20 +110,25 @@ ul {
 
 .email {
     float: left;
+    margin-left:10px;
+    display: flex;
+    gap: 10px;
     background: #ECECEC;
     color: var(--text-color);
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
+    text-align: center;
 }
 
 .button {
-    float: right;
+    gap: 10px;
+    display: inline-block;
+    inline-size: 500px;
     background: #FF3F3C;
     color: var(--text-color);
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: right;
+    text-align: center;
 }
 
 p {
