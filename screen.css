@@ -112,7 +112,6 @@ ul {
     font-size: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 20px;
     padding-top: 20px;
     display:inline-block;
     vertical-align: middle;
@@ -126,9 +125,6 @@ ul {
     font-weight: bold;
     text-align: center;
     font-size: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 20px;
     padding-top: 20px;
     vertical-align: middle;
 }
@@ -140,4 +136,9 @@ p {
     text-align: left;
     padding-left: 100px;
     padding-right: 100px;
+}
+
+.input {
+    display: inline-block;
+    vertical-align: middle;
 }
