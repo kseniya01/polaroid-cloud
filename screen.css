@@ -77,7 +77,6 @@ h2 {
     padding-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 50px;
     margin-bottom: 50px;
     display:inline-block;
     vertical-align: middle;
@@ -120,6 +119,7 @@ ul {
     align-content: center;
     display:inline-block;
     vertical-align: middle;
+    justify-content: center;
 }
 
 .button {
@@ -135,6 +135,7 @@ ul {
     padding-bottom: 10px;
     padding-top: 10px;
     vertical-align: middle;
+    justify-content: center;
 }
 
 p {
