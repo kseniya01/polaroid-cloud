@@ -79,6 +79,8 @@ h2 {
     margin-right: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
+    display: flex;
+    align-content: center;
 }
 
 h3 {
@@ -144,9 +146,4 @@ p {
     text-align: left;
     padding-left: 100px;
     padding-right: 100px;
-}
-
-.input {
-    display: flex;
-    align-content: center;
 }
