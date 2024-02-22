@@ -83,6 +83,12 @@ main {
     background: url('photo-film-solid.svg') no-repeat center left;
 }
 
+.cta {
+    display:inline-block;
+    vertical-align: middle;
+    padding: 20px;
+}
+
 .cta form {
     background: linear-gradient(#E2E2E2, #D6D7D6);
     padding: 20px;
