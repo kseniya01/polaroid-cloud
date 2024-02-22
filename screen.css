@@ -1,5 +1,4 @@
 /* Add screen styles below */
-/* Add screen styles below */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wgth@400;900&display=swap');
 
 :root {
@@ -23,7 +22,9 @@ header {
 
 header h1 {
     margin: 0;
-    font-weight: normal;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 50px;
 }
 
 main {
@@ -56,6 +57,7 @@ main {
     list-style-type: none;
     margin: 10px 0;
     padding: 0 0 0 35px;
+    font-size: 25px;
 }
 
 .details ul li.qr {
