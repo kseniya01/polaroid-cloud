@@ -5,6 +5,7 @@
     --main-bg-color: #e9e9e9;
     --primary-text-color: #424242;
     --accent-color: #FF3F3C;
+    --secondary-text-color: #FFFFFF;
 }
 
 body {
@@ -93,18 +94,22 @@ main {
     margin: 0;
     text-align: center;
     font-weight: bold;
+    margin: 30px;
 }
 
-,cta text {
+.cta text {
     font-size: 1em;
     line-height: 1em;
     margin: 0;
     text-align: left;
 }
 
-,cta button {
+.cta button {
     font-size: 1em;
     line-height: 1em;
     margin: 0;
     text-align: left;
+    font-weight: bold;
+    color: var(--secondary-text-color);
+    background var(--accent-color);
 }
