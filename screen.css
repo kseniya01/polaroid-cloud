@@ -109,6 +109,7 @@ input[type=text] {
     margin: 0;
     text-align: left;
     color: var(--primary-text-color);
+    padding: 20px;
 }
 
 input[type=button] {
@@ -119,4 +120,5 @@ input[type=button] {
     font-weight: bold;
     color: var(--secondary-text-color);
     background-color: #FF3F3C;
+    padding: 20px;
 }
