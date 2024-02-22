@@ -69,22 +69,22 @@ main {
 
 .details ul li.qr {
     background: url('qrcode-solid.svg') no-repeat center left;
-    margin: 15px 15px 0 0;
+    margin: 15px 15px 15px 15px;
 }
 
 .details ul li.wifi {
     background: url('wifi-solid.svg') no-repeat center left;
-    margin: 15px 15px 0 0;
+    margin: 15px 15px 15px 15px;
 }
 
 .details ul li.cloud {
     background: url('cloud.svg') no-repeat center left;
-    margin: 15px 15px 0 0;
+    margin: 15px 15px 15px 15px;
 }
 
 .details ul li.photo {
     background: url('photo-film-solid.svg') no-repeat center left;
-    margin: 15px 15px 0 0;
+    margin: 15px 15px 15px 15px;
 }
 
 .cta {
