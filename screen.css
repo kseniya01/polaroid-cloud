@@ -112,7 +112,6 @@ input[type=text] {
     text-align: left;
     color: var(--primary-text-color);
     padding: 20px;
-    padding-inline: 0px;
 }
 
 input[type=button] {
@@ -124,5 +123,4 @@ input[type=button] {
     color: var(--secondary-text-color);
     background-color: #FF3F3C;
     padding: 20px;
-    padding-inline: 0px;
 }
