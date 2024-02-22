@@ -54,3 +54,11 @@ main {
 .details ul li.wifi {
     background: url('wifi-solid.svg') no-repeat center left;
 }
+
+.details ul li.cloud {
+    background: url('cloud.svg') no-repeat center left;
+}
+
+.details ul li.photo {
+    background: url('photo-film-solid.svg') no-repeat center left;
+}
