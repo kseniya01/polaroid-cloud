@@ -86,13 +86,13 @@ main {
 .cta {
     padding: 20px;
     text-align: center;
-    min-height: 800px;
+    min-height: 100px;
 }
 
 .cta form {
     background: linear-gradient(#E2E2E2, #D6D7D6);
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 25px;
     margin: 50px;
 }
 
@@ -112,6 +112,7 @@ input[type=text] {
     color: var(--primary-text-color);
     padding: 20px;
     border-width: 0;
+    margin: 5px;
 }
 
 input[type=button] {
@@ -124,4 +125,5 @@ input[type=button] {
     background-color: #FF3F3C;
     padding: 20px;
     border-width: 0;
+    margin: 5px;
 }
