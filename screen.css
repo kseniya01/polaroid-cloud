@@ -98,7 +98,7 @@ main {
     padding: 20px;
     border-radius: 25px;
     margin: 50px;
-    display: block;
+    display: inline-block;
 }
 
 .cta h3 {
