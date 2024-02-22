@@ -1,115 +1,40 @@
-/* Add screen styles below */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wgth@400;900&display=swap');
-
-:root {
-    --main-bg-color: #E9E9E9;
-    --primary-text-color: #424242;
-    --accent-color: #FF3F3C;
-    --secondary-text-color: #FFFFFF;
-}
-
-body {
-    background var(--main-bg-color);
-    color: var(--primary-text-color);
-    font-family: 'Inter', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    padding: 20px;
-    margin-bottom: 100px;
-}
-
-header h1 {
-    margin: 0;
-    font-weight: bold;
-    font-size: 30px;
-    padding: 50px;
-}
-
-main {
-    background: url('polaroid.png') no-repeat center 100px;
-    margin: 0 auto;
-    width: 1000px;
-}
-
-.hero {
-    text-align: center;
-    min-height: 800px;
-}
-
-.hero h2 {
-    font-size: 9em;
-    line-height: 1em;
-    text-transform: uppercase;
-    margin: 0;
-}
-
-.details h3 {
-    font-size: 3em;
-    line-height: 2em;
-    margin-top: 30px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.details p {
-    font-size: 30px;
-    text-align: left;
-    padding-bottom: 30px;
-}
-
-.details ul li {
-    list-style-type: none;
-    margin: 10px 0;
-    padding: 0 0 0 60px;
-    font-size: 30px;
-}
-
-.details ul li.qr {
-    background: url('qrcode-solid.svg') no-repeat center left;
-}
-
-.details ul li.wifi {
-    background: url('wifi-solid.svg') no-repeat center left;
-}
-
-.details ul li.cloud {
-    background: url('cloud.svg') no-repeat center left;
-}
-
-.details ul li.photo {
-    background: url('photo-film-solid.svg') no-repeat center left;
-}
-
-.cta form {
-    background: linear-gradient(#E2E2E2, #D6D7D6);
-    padding: 20px;
-}
-
-.cta h3 {
-    font-size: 3em;
-    line-height: 2em;
-    margin: 0;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 30px;
-}
-
-input[type=text] {
-    font-size: 1em;
-    line-height: 1em;
-    margin: 0;
-    text-align: left;
-}
-
-input[type=button] {
-    font-size: 1em;
-    line-height: 1em;
-    margin: 0;
-    text-align: left;
-    font-weight: bold;
-    color: var(--secondary-text-color);
-    background var(--accent-color);
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Polaroid Cloud</title>
+    <link rel="stylesheet" href="/screen.css">
+  </head>
+  <body>
+    <header>
+      <h1>Polaroid Cloud</h1>
+    </header>
+    <main>
+      <section class="hero">
+        <h2>Film to Phone</h2>
+      </section>
+      <section class="details">
+        <h3>Any cloud, anytime.</h3>
+        <p>With Polaroid Cloud, you can sync your photos to your favorite cloud service while still enjoying the instant printing
+          you've come to expect from Polaroid. Using our special instant photo paper, your image is uploaded to the web and a QR
+          code is generated and printed with the instant photo. Perfect for sharing with your friends and family.</p>
+        <h3>Easy, cheesy!</h3>
+        <ul>
+          <li class="wifi">Connect your Polaroid to a Wifi network</li>
+          <li class="cloud">Configure your favorite cloud</li>
+          <li class="qr">Point, shoot, and print your QR-tagged photo</li>
+          <li class="photo">Share your physical and digital photos with friends and family</li>
+        </ul>
+      </section>
+      <section class="cta">
+        <h3>Be the first to know.</h3>
+        <form action="#">
+          <input type="text" placeholder="Enter your email address to receive updates"> 
+          <input type="button" value="Keep in touch">
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
