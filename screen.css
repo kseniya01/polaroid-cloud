@@ -52,28 +52,6 @@ main {
     font-weight: bold;
 }
 
-.cta h3 {
-    font-size: 3em;
-    line-height: 2em;
-    margin: 0;
-    text-align: center;
-    font-weight: bold;
-}
-
-,cta text {
-    font-size: 1em;
-    line-height: 1em;
-    margin: 0;
-    text-align: left;
-}
-
-,cta button {
-    font-size: 1em;
-    line-height: 1em;
-    margin: 0;
-    text-align: left;
-}
-
 .details ul li {
     list-style-type: none;
     margin: 10px 0;
@@ -98,4 +76,26 @@ main {
 
 .cta form {
     background: linear-gradient(#E2E2E2, #D6D7D6);
+}
+
+.cta h3 {
+    font-size: 3em;
+    line-height: 2em;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+,cta text {
+    font-size: 1em;
+    line-height: 1em;
+    margin: 0;
+    text-align: left;
+}
+
+,cta button {
+    font-size: 1em;
+    line-height: 1em;
+    margin: 0;
+    text-align: left;
 }
