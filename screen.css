@@ -64,7 +64,7 @@ main {
     list-style-type: none;
     margin: 10px 0;
     padding: 0 0 0 50px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .details ul li.qr {
@@ -97,14 +97,14 @@ main {
     margin-top: 30px;
 }
 
-.cta text {
+input[type=text] {
     font-size: 1em;
     line-height: 1em;
     margin: 0;
     text-align: left;
 }
 
-.cta button {
+input[type=button] {
     font-size: 1em;
     line-height: 1em;
     margin: 0;
