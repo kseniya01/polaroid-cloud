@@ -24,7 +24,7 @@ header {
 header h1 {
     margin: 0;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
     padding: 50px;
 }
 
@@ -47,7 +47,7 @@ main {
 }
 
 .details h3 {
-    font-size: 3em;
+    font-size: 4em;
     line-height: 2em;
     margin: 20px 30px 0 0;
     text-align: center;
@@ -102,6 +102,7 @@ input[type=text] {
     line-height: 1em;
     margin: 0;
     text-align: left;
+    color: var(--primary-text-color);
 }
 
 input[type=button] {
