@@ -99,6 +99,7 @@ main {
     border-radius: 25px;
     margin: 50px;
     display: inline-block;
+    min-width: 100px;
 }
 
 .cta h3 {
