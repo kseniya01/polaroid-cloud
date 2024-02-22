@@ -1,4 +1,5 @@
 /* Add screen styles below */
+/* Add screen styles below */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wgth@400;900&display=swap');
 
 :root {
@@ -44,11 +45,33 @@ main {
 }
 
 .details h3 {
-    font-size: 2em;
+    font-size: 3em;
     line-height: 2em;
     margin: 0;
     text-align: center;
     font-weight: bold;
+}
+
+.cta h3 {
+    font-size: 3em;
+    line-height: 2em;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+,cta text {
+    font-size: 1em;
+    line-height: 1em;
+    margin: 0;
+    text-align: left;
+}
+
+,cta button {
+    font-size: 1em;
+    line-height: 1em;
+    margin: 0;
+    text-align: left;
 }
 
 .details ul li {
@@ -73,6 +96,6 @@ main {
     background: url('photo-film-solid.svg') no-repeat center left;
 }
 
-.cta {
+.cta form {
     background: linear-gradient(#E2E2E2, #D6D7D6);
 }
