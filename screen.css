@@ -108,7 +108,7 @@ main {
 input[type=text] {
     font-size: 1em;
     line-height: 1em;
-    margin: 0;
+    margin: 20px 20px 20px 0;
     text-align: left;
     color: var(--primary-text-color);
     padding: 20px;
@@ -117,7 +117,7 @@ input[type=text] {
 input[type=button] {
     font-size: 1em;
     line-height: 1em;
-    margin: 0;
+    margin: 20px 20px 20px 0;
     text-align: left;
     font-weight: bold;
     color: var(--secondary-text-color);
