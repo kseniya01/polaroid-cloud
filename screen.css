@@ -112,5 +112,5 @@ input[type=button] {
     text-align: left;
     font-weight: bold;
     color: var(--secondary-text-color);
-    background var(--accent-color);
+    background-color: #FF3F3C;
 }
